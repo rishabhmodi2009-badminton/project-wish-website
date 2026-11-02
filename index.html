@@ -5,21 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Wish · SAS</title>
   <meta name="description" content="Project Wish is a student service club at Singapore American School supporting Make-A-Wish Singapore and Ambulance Wish Singapore.">
-  <link rel="icon" href="images/logo.jpg">
+  <link rel="icon" href="images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..900&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <p>Partnering with Ambulance Wish Singapore &amp; Make-A-Wish Singapore</p>
+    <a href="https://www.instagram.com/projectwishsas/" target="_blank" rel="noopener">@projectwishsas</a>
+  </div>
+</div>
+
 <header class="masthead">
   <div class="wrap masthead-inner">
-    <a href="#" class="brand"><img src="images/logo.jpg" alt="Project Wish"></a>
+    <a href="#" class="brand"><img src="images/logo.png" alt="Project Wish"></a>
     <nav>
       <a href="#charities">Charities</a>
       <a href="#work">What we do</a>
       <a href="#story">Our story</a>
+      <a href="#team">Team</a>
       <a href="#join" class="nav-join">Join us</a>
     </nav>
   </div>
@@ -27,103 +35,118 @@
 
 <main>
 
-  <section class="hero wrap">
-    <p class="kicker">A student service club at Singapore American School · Est. 2025</p>
-    <h1>Small things,<br>done for <span class="underlined">someone's wish.</span></h1>
-    <div class="hero-grid">
-      <p class="lede">We raise money, tell stories, and show up in person for two Singapore charities that grant wishes to people facing serious illness. Some of those wishes belong to children. Others are a last wish at the end of a life.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#join">Join the club</a>
-        <a class="link" href="#charities">Who we support →</a>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="kicker">Student service club · Singapore American School</p>
+        <h1>Small things, done for someone's wish.</h1>
+        <p class="lede">We raise money, tell stories, and show up in person for two Singapore charities that grant wishes to people facing serious illness. Some of those wishes belong to children. Others are a last wish at the end of a life.</p>
+        <div class="hero-actions">
+          <a class="btn btn-white" href="#join">Join the club</a>
+          <a class="btn btn-outline" href="https://www.instagram.com/projectwishsas/" target="_blank" rel="noopener">Follow us</a>
+        </div>
       </div>
+      <div class="photo photo-hero" data-label="Team photo · images/team.jpg"></div>
     </div>
-    <div class="photo photo-hero" data-label="Team photo · images/team.jpg"></div>
   </section>
 
-  <section class="ledger">
-    <div class="wrap ledger-inner">
+  <section class="stats">
+    <div class="wrap stats-inner">
       <div><span class="num">30+</span><span class="cap">student members</span></div>
-      <div><span class="num">3<small>/50+</small></span><span class="cap">new clubs approved the year we applied</span></div>
-      <div><span class="num">2</span><span class="cap">partner charities</span></div>
-      <div><span class="num">2026</span><span class="cap">New Service Club Award, SAS Eagle Service Council</span></div>
+      <div><span class="num">91</span><span class="cap">Instagram followers</span></div>
+      <div><span class="num">18</span><span class="cap">posts shared on @projectwishsas</span></div>
+      <div><span class="num">1 of 3</span><span class="cap">new clubs approved out of 50+ applications</span></div>
     </div>
   </section>
 
   <section id="charities" class="wrap section">
-    <header class="section-head">
-      <span class="sec-no">01</span>
-      <h2>Who we support</h2>
-    </header>
+    <p class="eyebrow">Who we support</p>
+    <h2>Two charities, one idea: a wish matters.</h2>
     <div class="charities">
-      <article class="charity">
-        <h3>Make-A-Wish Singapore</h3>
+      <article class="charity charity-maw">
         <p class="who">For children under 18</p>
+        <h3>Make-A-Wish Singapore</h3>
         <p>Grants wishes to children fighting critical illnesses. A wish gives a child something to look forward to during treatment, and something other than illness to talk about at home.</p>
-        <a class="link" href="https://www.makeawish.org.sg" target="_blank" rel="noopener">makeawish.org.sg →</a>
+        <a class="more" href="https://makeawish.org.sg/" target="_blank" rel="noopener">Visit Make-A-Wish</a>
+        <a class="more" href="https://portal.makeawish.org.sg/Donation/DonateNow" target="_blank" rel="noopener">Donate</a>
       </article>
-      <article class="charity">
-        <h3>Ambulance Wish Singapore</h3>
+      <article class="charity charity-aws">
         <p class="who">For adults at the end of life</p>
+        <h3>Ambulance Wish Singapore</h3>
         <p>Fulfils one final wish for terminally ill adults: a trip to the sea, a family wedding, a last meal somewhere that mattered. Its line is <em>“Fulfilling Wishes, Celebrating Lives.”</em> We've worked with them since before the club existed.</p>
-        <a class="link" href="https://www.ambulancewish.sg" target="_blank" rel="noopener">ambulancewish.sg →</a>
+        <a class="more" href="https://ambulancewishsingapore.com/" target="_blank" rel="noopener">Visit Ambulance Wish</a>
+        <a class="more" href="https://ambulancewishsingapore.com/support-us/donate/" target="_blank" rel="noopener">Donate</a>
       </article>
     </div>
   </section>
 
-  <section id="work" class="wrap section">
-    <header class="section-head">
-      <span class="sec-no">02</span>
-      <h2>What we actually do</h2>
-    </header>
-    <ol class="work-list">
-      <li>
-        <h3>Fundraise</h3>
-        <p>AMBY blind bag sales at school, fundraising events in the community, and the first social media fundraiser SAS had ever run.</p>
-      </li>
-      <li>
-        <h3>Tell the stories</h3>
-        <p>Members make short videos for Ambulance Wish's official pages and write awareness pieces for its communications team, following the charity's guidelines.</p>
-      </li>
-      <li>
-        <h3>Show up</h3>
-        <p>Direct service: helping set up wishes before beneficiaries arrive, joining wish trips, and taking photos for the families' memory albums.</p>
-      </li>
-      <li>
-        <h3>Volunteer at events</h3>
-        <p>Around twenty of us help run Ambulance Wish's charity golf day each September, plus community outreach events through the year.</p>
-      </li>
-    </ol>
+  <section id="work" class="band">
+    <div class="wrap section">
+      <p class="eyebrow">What we do</p>
+      <h2>Four ways we help.</h2>
+      <ol class="work-list">
+        <li>
+          <h3>Fundraise</h3>
+          <p>AMBY blind bag sales at school, fundraising events in the community, and the first social media fundraiser SAS had ever run.</p>
+        </li>
+        <li>
+          <h3>Tell the stories</h3>
+          <p>Members make short videos for Ambulance Wish's official pages and write awareness pieces for its communications team, following the charity's guidelines.</p>
+        </li>
+        <li>
+          <h3>Show up</h3>
+          <p>Direct service: helping set up wishes before beneficiaries arrive, joining wish trips, and taking photos for the families' memory albums.</p>
+        </li>
+        <li>
+          <h3>Volunteer at events</h3>
+          <p>Around twenty of us help run Ambulance Wish's charity golf day each September, plus community outreach events through the year.</p>
+        </li>
+      </ol>
+    </div>
   </section>
 
-  <section id="story" class="story">
-    <div class="wrap section">
-      <header class="section-head">
-        <span class="sec-no">03</span>
-        <h2>How it started</h2>
-      </header>
-      <div class="story-grid">
-        <div class="story-intro">
-          <p>Project Wish began with a stack of posters. In 2024, before there was any club, we put them up in cafés around Robertson Quay for Ambulance Wish Singapore's <em>Cycle of Peace</em> charity ride.</p>
-          <p>We started the club a year later to show other students that small, ordinary actions can change someone's day, and sometimes the last good day they have.</p>
-          <div class="photo photo-tall" data-label="Cycle of Peace posters · images/posters.jpg"></div>
-        </div>
-        <ol class="timeline">
-          <li><time>2024</time><p>Cycle of Peace posters go up around Robertson Quay. First work with Ambulance Wish Singapore.</p></li>
-          <li><time>Aug 2025</time><p>Project Wish is founded at SAS, one of three new clubs approved out of 50+ applications.</p></li>
-          <li><time>2025–26</time><p>The school's first social media fundraiser. First direct service trips with Ambulance Wish.</p></li>
-          <li><time>2026</time><p>Recognised at the Honors assembly with the New Service Club Award from the SAS Eagle Service Council.</p></li>
-          <li><time>Summer 2026</time><p>A member interns at Ambulance Wish and builds automations that save its two-person team about three hours a week.</p></li>
-          <li><time>2026–27</time><p>Storytelling for Ambulance Wish, AMBY blind bag sales, and more members on wish setups.</p></li>
-        </ol>
+  <section id="story" class="wrap section">
+    <p class="eyebrow">Our story</p>
+    <h2>It started with a stack of posters.</h2>
+    <div class="story-grid">
+      <div class="story-intro">
+        <p>In 2024, before there was any club, we put up posters in cafés around Robertson Quay for Ambulance Wish Singapore's <em>Cycle of Peace</em> charity ride.</p>
+        <p>We started Project Wish a year later to show other students that small, ordinary actions can change someone's day, and sometimes the last good day they have.</p>
+        <div class="photo photo-tall" data-label="Cycle of Peace posters · images/posters.jpg"></div>
       </div>
+      <ol class="timeline">
+        <li><time>2024</time><p>Cycle of Peace posters go up around Robertson Quay. First work with Ambulance Wish Singapore.</p></li>
+        <li><time>Aug 2025</time><p>Project Wish is founded at SAS, one of three new clubs approved out of 50+ applications.</p></li>
+        <li><time>2025–26</time><p>The school's first social media fundraiser. First direct service trips with Ambulance Wish.</p></li>
+        <li><time>2026</time><p>Rishabh Modi receives the New Service Club Award from the SAS Eagle Service Council at the Honors assembly.</p></li>
+        <li><time>Summer 2026</time><p>A member interns at Ambulance Wish and builds automations that save its two-person team about three hours a week.</p></li>
+        <li><time>2026–27</time><p>Storytelling for Ambulance Wish, AMBY blind bag sales, and more members on wish setups.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="team" class="band">
+    <div class="wrap section">
+      <p class="eyebrow">Meet the team</p>
+      <h2>The people behind it.</h2>
+      <ul class="team">
+        <li><img src="images/team/rishabh.jpg" alt="Rishabh"><h3>Rishabh Modi</h3><p>President &amp; co-founder</p></li>
+        <li><img src="images/team/lucas.jpg" alt="Lucas"><h3>Lucas</h3><p>Officer</p></li>
+        <li><img src="images/team/hana.jpg" alt="Hana"><h3>Hana</h3><p>Officer</p></li>
+        <li><img src="images/team/ryan.jpg" alt="Ryan"><h3>Ryan</h3><p>Officer</p></li>
+        <li><img src="images/team/miller.jpg" alt="Mr. Miller"><h3>Mr. Miller</h3><p>Faculty sponsor</p></li>
+      </ul>
+      <h3 class="sub-head">Founders</h3>
+      <ul class="team founders">
+        <li><img src="images/team/sid.jpg" alt="Sid Ray"><h3>Sid Ray</h3><p>Co-founder</p></li>
+        <li><img src="images/team/advait.jpg" alt="Advait Swaminathan"><h3>Advait Swaminathan</h3><p>Co-founder</p></li>
+      </ul>
     </div>
   </section>
 
   <section class="wrap section">
-    <header class="section-head">
-      <span class="sec-no">04</span>
-      <h2>From the year</h2>
-    </header>
+    <p class="eyebrow">From the year</p>
+    <h2>Moments we're proud of.</h2>
     <div class="gallery">
       <div class="photo g-a" data-label="images/gallery-1.jpg"></div>
       <div class="photo g-b" data-label="images/gallery-2.jpg"></div>
@@ -135,24 +158,26 @@
   <section id="join" class="join">
     <div class="wrap join-inner">
       <div>
-        <span class="sec-no light">05</span>
+        <p class="eyebrow light">Join us</p>
         <h2>Come help grant a wish.</h2>
         <p>Project Wish is open to SAS high school students. You don't need experience, just a few hours a month and a willingness to show up.</p>
       </div>
       <ul class="join-list">
-        <li><span>Meetings</span><div>[Day, time, room]</div></li>
-        <li><span>Instagram</span><div><a href="#">@[handle]</a></div></li>
-        <li><span>Email</span><div><a href="mailto:[email]">[email]</a></div></li>
-        <li><span>Donate</span><div>Directly to <a href="https://www.makeawish.org.sg" target="_blank" rel="noopener">Make-A-Wish</a> or <a href="https://www.ambulancewish.sg" target="_blank" rel="noopener">Ambulance Wish</a></div></li>
+        <li><span>Meetings</span><div>Every Tuesday, 3:15 pm</div></li>
+        <li><span>Instagram</span><div><a href="https://www.instagram.com/projectwishsas/" target="_blank" rel="noopener">@projectwishsas</a></div></li>
+        <li><span>Email</span><div><a href="mailto:modi48775@sas.edu.sg">modi48775@sas.edu.sg</a></div></li>
+        <li><span>Donate</span><div>Directly to <a href="https://portal.makeawish.org.sg/Donation/DonateNow" target="_blank" rel="noopener">Make-A-Wish</a> or <a href="https://ambulancewishsingapore.com/support-us/donate/" target="_blank" rel="noopener">Ambulance Wish</a></div></li>
       </ul>
     </div>
   </section>
 
 </main>
 
-<footer class="wrap footer">
-  <p>Project Wish · Singapore American School</p>
-  <p>Project Wish is a student club. It is not part of, and does not speak for, Make-A-Wish Singapore or Ambulance Wish Singapore.</p>
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <img src="images/logo.png" alt="Project Wish">
+    <p>Project Wish is a student club at Singapore American School. It is not part of, and does not speak for, Make-A-Wish Singapore or Ambulance Wish Singapore.</p>
+  </div>
 </footer>
 
 </body>
