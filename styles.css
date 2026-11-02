@@ -122,9 +122,8 @@ h1 {
 
 /* Ledger */
 .ledger { background: var(--paper-2); }
-.ledger-inner { display: grid; grid-template-columns: repeat(4, 1fr); }
-.ledger-inner { gap: 32px; }
-.ledger-inner > div { padding: 36px 0 34px; }
+.ledger-inner { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 32px; padding-top: 12px; padding-bottom: 12px; }
+.ledger-inner > div { padding: 24px 0; }
 .num { display: block; font-size: 56px; font-weight: 900; font-stretch: 80%; color: var(--ink); line-height: 1; }
 .num small { font-size: 0.45em; font-weight: 700; color: var(--ink-soft); }
 .cap { display: block; margin-top: 10px; font-size: 16px; line-height: 1.35; color: var(--ink-soft); }
