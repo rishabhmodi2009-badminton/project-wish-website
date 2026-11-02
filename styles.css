@@ -254,8 +254,8 @@ h2 { font-size: clamp(36px, 5vw, 56px); font-weight: 900; font-stretch: 80%; tex
 .pic-hero img { aspect-ratio: 21 / 9; object-fit: cover; object-position: center 35%; }
 
 .posters { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 32px; }
-.poster-main { grid-column: span 2; }
-.poster-main img { aspect-ratio: 4 / 3; object-fit: cover; object-position: center 40%; }
+.poster-main img { aspect-ratio: 1; object-fit: cover; object-position: center 45%; }
+.poster-lucas img { object-position: 72% center; }
 .posters .pic:not(.poster-main) img { aspect-ratio: 4 / 3; object-fit: cover; }
 .posters-cap { grid-column: span 2; font-family: "Archivo", sans-serif; font-size: 13px !important; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); }
 
