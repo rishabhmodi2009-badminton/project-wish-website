@@ -305,3 +305,5 @@ h2 { font-size: clamp(36px, 5vw, 56px); font-weight: 900; font-stretch: 80%; tex
 }
 
 .team .grad { color: var(--ink-soft); font-weight: 500; text-transform: none; letter-spacing: 0; font-family: "Newsreader", Georgia, serif; font-style: italic; font-size: 15px; margin-top: 2px; }
+
+.motto { font-style: italic; font-size: 22px; line-height: 1.35; color: var(--ink); margin: 4px 0 18px; }
